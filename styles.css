@@ -1,0 +1,45 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    background-color: darkslateblue;
+    flex-direction: column;
+}
+#squareNumber{
+    height: 30px;
+    width: 90px;
+    align-self: center;
+    font-size: 10px;
+}
+#title{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: aqua;
+    height: 50px;
+    font-size: 40px;
+    margin: 30px;
+}
+#container{
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    align-self: center;
+    display: flex;
+    margin: 50px;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+.insideDiv{
+    background-color: red;
+    height: 10%;
+    width: 10%;
+    margin: 0px;
+    gap: 0px;
+    flex-wrap: wrap;
+    transition-delay:1s;
+}
+.insideDiv:hover{
+    background-color: black;
+    transition-delay:0s;
+
+}
